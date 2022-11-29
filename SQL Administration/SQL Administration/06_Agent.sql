@@ -1,6 +1,6 @@
 --SQL AGENT -----
 
---Jobs, Zeitpläne, Email
+--Jobs, Zeitpläne, Email, Warnungen
 --Job hat Schritte (PS, CMD, TSQL, SSIS , SSAS, REPL)
 
 
@@ -33,10 +33,10 @@ Job
 
 
 
-	--Warnungen 
+	--Warnungen   von 1 bis 25
 
 	was tun bei
-
+		--Ebene 14:  Security..kein zugrff
 	--Ebene 15:  Syntaxfehler
 	--Ebene 16: DAU  ungültiges Objekt
 	-- Ebene 9:   alles Ebenen von 1 bis 10 sind reine Infos

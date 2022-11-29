@@ -1,4 +1,3 @@
---Emailversand
 
 
 /*
@@ -10,7 +9,11 @@ Authentifizierung: nix
 Maildomäne: @sql.local
  Zugriff-->Relay: + 127.0.0.1
 
- Öfftl Profil_ Mitglied der Rolle DatabaseMailUserRole
+ Öfftl Profil_ Mitglied der Rolle DatabaseMailUserRole (msdb / Security / DB Rollen)
+ jeder der ein öfftl Profil verwenden wil, muss MItglied dieser Rolle sein..
+
+
+
 
 
  Am Ende eines jobs sollen Mails versendet werden
