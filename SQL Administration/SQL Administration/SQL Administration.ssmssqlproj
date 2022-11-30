@@ -25,12 +25,6 @@
           <AssociatedConnUserName />
           <FullPath>01_Virtualisierung.sql</FullPath>
         </FileNode>
-        <FileNode Name="01_VM.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>01_VM.sql</FullPath>
-        </FileNode>
         <FileNode Name="02_Setup.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -44,28 +38,16 @@
           <FullPath>02_SystemDBs.sql</FullPath>
         </FileNode>
         <FileNode Name="03_DB Settings.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>03_DB Settings.sql</FullPath>
-        </FileNode>
-        <FileNode Name="03_DBSetings.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>03_DBSetings.sql</FullPath>
+          <FullPath>03_DB Settings.sql</FullPath>
         </FileNode>
         <FileNode Name="04_DB Design.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>04_DB Design.sql</FullPath>
-        </FileNode>
-        <FileNode Name="04_DBDesign.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>04_DBDesign.sql</FullPath>
         </FileNode>
         <FileNode Name="05_Seiten und Blöcke.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -109,10 +91,35 @@
           <AssociatedConnUserName />
           <FullPath>X_Anwendungsrolle.sql</FullPath>
         </FileNode>
+        <FileNode Name="X_ContainedDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_ContainedDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_DB_Verkleinern.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_DB_Verkleinern.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_sp_help_revlogin.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="X_verwaiste_User">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_verwaiste_User</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

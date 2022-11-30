@@ -1,0 +1,46 @@
+/*
+
+User ohne Login
+
+
+1) neues Login und verknüpfen
+
+klappt nicht weil,
+User in DB angelegt wird, der aber schon vorhanden ist
+
+
+2) nur Login
+geht auch nicht, weil SID eine andere sein wird
+
+
+
+3) saubere Rechtevergabe?
+User in DBRollen un dnur Rollen bekomen Rechte in DB
+
+
+JamesBond löchen aus DB, dann komplett neu anlegen und in Rolle Personal wiede rmitaufnehmen
+
+
+4) mit TSQL?
+
+*/
+
+use whoamiDB
+GO
+
+sp_change_users_login 'Report'
+
+
+--                                                           User       Login            Kennwort
+sp_change_users_login 'Auto_fix', 'JamesBond', NULL,'ppedv2019!'
+
+----------                                                            User       Login
+sp_change_users_login 'Update_one', 'JamesBond', 'JamesBond'
+
+
+sp_help_revlogin 
+--gibt im Ausgabefester ein Script 
+--mit allen Logins, Passwörtern und SID aus..
+
+
+--dbatools.io
